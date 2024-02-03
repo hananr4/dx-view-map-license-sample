@@ -2,26 +2,18 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
-// // import { DxButtonModule } from 'devextreme-angular';
-//  import DevExpress from 'devextreme';
-//  import { licenseKey } from '../devextreme-key';
-
-// DevExpress.config({
-//   licenseKey: licenseKey
-// });
+import { DxButtonModule } from 'devextreme-angular';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, DxButtonModule],
   templateUrl: './app.component.html',
 })
 
 export class AppComponent {
   AppComponent() {
-
-    
 
   }
 }
