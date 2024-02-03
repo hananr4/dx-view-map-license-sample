@@ -11,4 +11,4 @@ export const appConfig: ApplicationConfig = {
 };
 
 
-// DevExpress.config({licenseKey: licenseKey})
+DevExpress.config({licenseKey: licenseKey})
