@@ -2,7 +2,7 @@ import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
 
-import DevExpress from 'devextreme';
+import config from 'devextreme/core/config';
 import { licenseKey } from '../devextreme-key';
 
 export const appConfig: ApplicationConfig = {
@@ -11,4 +11,5 @@ export const appConfig: ApplicationConfig = {
 };
 
 
-DevExpress.config({licenseKey: licenseKey})
+
+config({ licenseKey });
